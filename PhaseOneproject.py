@@ -141,7 +141,7 @@ while True:
     elif player.get_hp() == 0:
         print(colors.FAIL + colors.BOLD + " \nGame Over!\n you have been defeated".upper() + colors.END)
         break
-    print("\n-------------------------------------------------------------------------------------")
+    print("\n---------------------------------------------------------------------------------------------")
     print(f"{colors.BOLD}Enemy Hp : {colors.GREEN}{enemy.get_hp()}/{enemy.get_maximum_hp()}")
     print(
         f"{colors.END}\n{player.name} Hp : {colors.FAIL + colors.BOLD}{player.get_hp()}/{player.get_maximum_hp()}")
